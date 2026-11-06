@@ -1,0 +1,6 @@
+interface:
+  display_name: "Qoder CN 默认委派"
+  short_description: "默认把消耗 token 的执行与脏活累活委派给 qodercn，只读精简最终结果"
+  default_prompt: "把全部消耗 token 的执行任务和脏活累活默认委派给 qodercn 执行；你只保留目标判断、派发、监督与精简最终结果。"
+policy:
+  allow_implicit_invocation: true
